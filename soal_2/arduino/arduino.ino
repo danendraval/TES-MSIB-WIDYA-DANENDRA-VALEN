@@ -1,10 +1,10 @@
 #include <DHT.h>
-#include <ESP8266WiFi.h>
+#include <ESP8266WiFi.h> // Modul WiFI ESP8266
 #include <PubSubClient.h>
 
 // Konfigurasi DHT
-#define DHTPIN D4 // Pin DHT sensor
-#define DHTTYPE DHT11 // Gunakan DHT11 atau DHT22
+#define DHTPIN D4 
+#define DHTTYPE DHT11 
 DHT dht(DHTPIN, DHTTYPE);
 
 // Konfigurasi WiFi
